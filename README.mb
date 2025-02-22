@@ -1,38 +1,82 @@
-# My Copilot Astro Plugin
+# AstroChat
 
-**My Copilot Astro Plugin** is an AstroVim plugin that integrates GitHub Copilot for inline code suggestions and provides a chat interface via CopilotChat.nvim. It also includes a command to sign in to GitHub for Copilot authentication.
+AstroChat is an AstroVim plugin that adds GitHub Copilot-like functionality.
 
 ## Features
 
-- **Inline Code Suggestions:** Powered by [github/copilot.vim](https://github.com/github/copilot.vim)
-- **Chat Interface:** Ask Copilot questions using [CopilotChat.nvim](https://github.com/CopilotC-Nvim/CopilotChat.nvim)
-- **GitHub Authentication:** Use the `:CopilotAuth` command to sign in and activate your GitHub Copilot subscription.
-- **Supported Commands:**
-  - `:CopilotChatOpen` – Opens the Copilot Chat window.
-  - `:CopilotChatClose` – Closes the Copilot Chat window.
-  - `:CopilotChatToggle` – Toggles the Copilot Chat window.
-  - `:CopilotAsk <question>` – Asks GitHub Copilot a question.
-  - `:CopilotAuth` – Initiates the GitHub sign-in process for Copilot.
+- Seamless integration with AstroVim
+- GitHub Copilot-like code suggestions
+- Easy to configure and use
 
-## Installation
+## Installation Guide
 
-### Using Lazy.nvim (recommended)
+### Prerequisites
 
-1. Add the following to your AstroVim user configuration (e.g., in `lua/user/plugins.lua`):
+- Ensure you have AstroVim installed
+- Supported OS: macOS, Linux
 
-   ```lua
-   return {
-     {
-       "your-github-username/my-copilot-astro-plugin",
-       config = function()
-         require("mycopilot").setup()
-       end,
-     },
-   }
-```
+### macOS Installation
 
+1. Open your terminal.
+2. Clone the repository:
+   ```sh
+   git clone https://github.com/Cool-Coder174/AstroChat.git
+   ```
+3. Navigate to the AstroChat directory:
+   ```sh
+   cd AstroChat
+   ```
+4. Run the installation script:
+   ```sh
+   ./install.sh
+   ```
+5. Add the plugin to your AstroVim configuration:
+   ```vim
+   Plug 'Cool-Coder174/AstroChat'
+   ```
+6. Reload your AstroVim configuration:
+   ```vim
+   :source $MYVIMRC
+   ```
 
+### Linux Installation
 
+1. Open your terminal.
+2. Clone the repository:
+   ```sh
+   git clone https://github.com/Cool-Coder174/AstroChat.git
+   ```
+3. Navigate to the AstroChat directory:
+   ```sh
+   cd AstroChat
+   ```
+4. Run the installation script:
+   ```sh
+   ./install.sh
+   ```
+5. Add the plugin to your AstroVim configuration:
+   ```vim
+   Plug 'Cool-Coder174/AstroChat'
+   ```
+6. Reload your AstroVim configuration:
+   ```vim
+   :source $MYVIMRC
+   ```
+
+## Usage
+
+- Start typing in AstroVim, and AstroChat will provide code suggestions similar to GitHub Copilot.
+- Use the configured key bindings to accept or reject suggestions.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request on GitHub.
+
+## License
+
+This project is licensed under the MIT License.
+
+---
 
 
 # Contributing to My Copilot Astro Plugin
