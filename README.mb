@@ -32,7 +32,7 @@ AstroChat is an AstroVim plugin that adds GitHub Copilot-like functionality.
    ```
 5. Add the plugin to your AstroVim configuration:
    ```vim
-   Plug 'Cool-Coder174/AstroChat'
+   Plug 'AstroChat'
    ```
 6. Reload your AstroVim configuration:
    ```vim
