@@ -11,3 +11,4 @@ echo "Installing AstroChat plugin..."
 # You can add plugin-specific installation commands here
 
 echo "AstroChat plugin installed successfully!"
+
